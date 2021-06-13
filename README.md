@@ -1,2 +1,3 @@
 # tanay-component-library
-Component library for future projects
+
+Component library for future projects.
