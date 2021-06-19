@@ -4,103 +4,77 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tanay Banerjee Component Library</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <title>home | Tanay Banerjee</title>
   </head>
   <body>
-    <h1>Tanay Banerjee's Component Library</h1>
-    <p>
-      I am attending neog.camp and I want to make a library which would make all
-      my projects look good and consistent.
-    </p>
-    <hr />
-
-    <h2>@typography</h2>
-    <h1>This is the biggest heading</h1>
-    <h2>This is the 2nd biggest heading</h2>
-    <p>This can be a paragraph or normal text.</p>
-    <small>This is a small text.</small>
-    <hr />
-
-    <h2>@containers</h2>
-    <h3>fluid container</h3>
-    <div>This is the container that will flow from end to end.</div>
-    <h3>center container</h3>
-    <div>This is the conatiner that will be at the center.</div>
-    <hr />
-    <!-- links -->
-    <h2>@links</h2>
-    <a href="">primary link</a>
-    <a href="">secondary link</a>
-    <hr />
-    <!-- lists -->
-    <h2>@lists</h2>
-    <h3>unordered lists</h3>
-    <ul>
-      <li>first</li>
-      <li>second</li>
-      <li>third</li>
-    </ul>
-    <h3>inline lists</h3>
-    <ul>
-      <li>first</li>
-      <li>second</li>
-      <li>third</li>
-    </ul>
-    <h3>reverse ordered lists</h3>
-    <ol>
-      <li>first</li>
-      <li>second</li>
-      <li>third</li>
-    </ol>
-    <hr />
-    <!-- nav -->
-    <h2>@navbar</h2>
-    <nav>
-      <div>Brand</div>
-      <ul>
-        <li>
-          <a href="">Home</a>
+    <!-- ***************navbar************* -->
+    <nav class="container navigation">
+      <div class="nav-brand">tanaybanerjee</div>
+      <ul class="list-non-bullet nav-pills">
+        <li class="list-item-inline">
+          <a href="./index.html" class="link link-active">home</a>
         </li>
-        <li>
-          <a href="">Home</a>
+        <li class="list-item-inline">
+          <a href="./projects.html" class="link">projects</a>
         </li>
-        <li>
-          <a href="">Home</a>
+        <li class="list-item-inline">
+          <a href="./blogs.html" class="link">blogs</a>
         </li>
       </ul>
     </nav>
-    <hr />
-    <!-- header  -->
-    <h2>@header</h2>
-    <header>
-      <img src="./images/hero2.svg" alt="" />
-      <h1>header heading</h1>
+    <!-- ***************header********* -->
+    <header class="hero">
+      <img class="hero-img" src="./images/hero2.svg" alt="" />
+      <h1 class="hero-heading">
+        Hi, it's Tanay Banerjee. I am a
+        <span style="color: var(--primary-color)">web developer</span>
+      </h1>
     </header>
-    <hr />
-    <!-- section -->
-    <h2>@normal section</h2>
-    <section>
-      <p>This should go from end to end with little margin on both sides</p>
-      <p>heading should be at center</p>
-      <p>there should be padding at top and bottom</p>
-      <p>this will have white background</p>
-    </section>
-    <h2>@off white section</h2>
-    <section>
-      <p>there should be background image.</p>
-      <p>this will have off-white background</p>
-    </section>
-    <hr />
-    <!-- footer -->
-    <h2>@footer</h2>
-    <footer>
-      <div>some small heading inside footer</div>
-      <ul>
-        <li>one</li>
-        <li>two</li>
-        <li>three</li>
-      </ul>
-      <p>all should be centered</p>
-    </footer>
+    <!-- ***************section********* -->
+  </section>
+  
+  <section class="section ow">
+    <div class="container container-center">
+      <h1>technologies</h1>
+      <p>
+        I'm familiar with HTML5, CSS3, Git, JavaScript, NodeJS, ReactJS, and Web Hosting
+      </p>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container container-center">
+      <h1>projects</h1>
+      <p>
+        I like to showcase my work and thus, you can see my projects hosted online
+      </p>
+      <a href="" class="link link-primary">See projects</a>
+    </div>
+  </section>
+  <section class="section ow">
+    <div class="container container-center">
+      <h1>blogs</h1>
+      <p>
+        I am also working on some technical and non techincal blogs. I like to document my journey of learning.
+      </p>
+      
+      <a href="" class="link link-secondary">Read Blogs</a>
+    </div>
+  </section>
+  <!-- ***************section********* -->
+  <div class="margin-md"></div>
+  <footer class="footer">
+    <div class="footer-header">social media presence</div>
+    <ul class="social-links list-non-bullet">
+      <li class="list-item-inline">
+        <a class="link" href="https://github.com/tanaybanerjeedeveloper"> github </a>
+      </li>
+      <li class="list-item-inline">
+        <a class="link" href="https://www.linkedin.com/in/tanay-banerjee-499a29185/"> linkedin </a>
+      </li>
+      
+    </ul>
+    
+  </footer>
   </body>
 </html>
